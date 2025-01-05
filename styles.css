@@ -35,8 +35,9 @@ main {
     width: 100%;
     max-width: 800px;
     background-color: var(--white);
+    color: var(--Stone600);
     padding: 1.5rem;
-    margin: 5rem;
+    margin: 7rem;
     border-radius: 12px;
     font-family: "outfit";
     font-weight: 400;
