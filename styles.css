@@ -33,10 +33,10 @@ body {
 
 main {
     width: 100%;
-    max-width: 600px;
+    max-width: 800px;
     background-color: var(--white);
     padding: 1.5rem;
-    margin: 2rem;
+    margin: 5rem;
     border-radius: 12px;
     font-family: "outfit";
     font-weight: 400;
@@ -63,10 +63,11 @@ p {
     padding: 1rem 2rem;
 }
 
-#prepdiv h3 {
+#prepdiv #second_heading {
     color: var(--Rose800);
     margin-top: 0;
     font-weight: 700;
+    font-size: 1.2rem;
 }
 
 ul, ol {
@@ -80,11 +81,11 @@ ol > li::marker {
 
 li {
     padding-left: 1rem;
-    padding-bottom: .6rem;
+    padding-bottom: 1rem;
 }
 
 .divitem {
-    border-bottom: 1.4px solid var(--Stone100);
+    border-bottom: 1.3px solid var(--Stone100);
     padding-bottom: 1rem;
 }
 h2 {
@@ -104,6 +105,10 @@ table {
 td {
     border-bottom: 1.3px solid var(--Stone100);
     width: 50%;
+    padding: .5rem 1.5rem;
+}
+
+td:nth-child(even) {
     color: var(--Brown800);
     font-weight: 600;
 }
